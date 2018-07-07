@@ -1,0 +1,35 @@
+{
+  "name": "fabwebstudio/php-rss-writer",
+  "type": "library",
+  "description": "Yet another simple RSS writer library for PHP 5.4 or later. Extended From suin/php-rss-writer",
+  "keywords": [
+    "rss",
+    "generator",
+    "writer",
+    "feed",
+    "php"
+  ],
+  "homepage": "https://github.com/fabwebstudio/php-rss-writer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "fabwebstudio",
+      "email": "fabwebstudio@gmail.com"
+    }
+  ],
+  "version": "1.8",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "EHER/PHPUnit": ">=1.6",
+    "mockery/mockery": ">=0.7.2",
+    "suin/xoopsunit": ">=1.2"
+  },
+  "autoload": {
+    "psr-0": {
+      "FabWebStudio\\RSSWriter": "src"
+    }
+  }
+}
